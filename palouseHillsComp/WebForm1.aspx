@@ -19,12 +19,6 @@
         <asp:MultiView ID="MultiView1" runat="server">
            <%-- Dashboard/Home--%>
             <asp:View ID="homepageView" runat="server">
-                                <asp:LinkButton ID="btnHome" runat="server" class ="navbar-item">Home</asp:LinkButton>
-                                <asp:LinkButton ID="btnDash" runat="server" class ="navbar-item">Dashboard</asp:LinkButton>
-                                <asp:LinkButton ID="btnWorkOrders" runat="server" class ="navbar-item">Work Orders</asp:LinkButton>
-                                <asp:LinkButton ID="btnCustomers" runat="server" class ="navbar-item">Customers</asp:LinkButton>
-                                <asp:LinkButton ID="btnEmployees" runat="server" class ="navbar-item">Employees</asp:LinkButton>
-                                <asp:LinkButton ID="btnInventory" runat="server" class ="navbar-item">Inventory</asp:LinkButton>
    
                 <div class="jumbotron jumbotron-fluid">
                   <div class="container">
